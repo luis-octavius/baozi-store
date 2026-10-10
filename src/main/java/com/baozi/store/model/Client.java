@@ -22,7 +22,7 @@ public class Client {
 	
 	public Client() {}
 	
-	public Long getById() { 
+	public Long getId() { 
 		return id; 
 	}
 	
