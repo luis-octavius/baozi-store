@@ -26,18 +26,36 @@ public class Product {
 	
 	public Product() {}
 	
-	public Long getId() { return id; }
+	public Long getId() { 
+		return id; 
+	}
 	
-	public void setId(Long id) { this.id = id; }
+	public void setId(Long id) { 
+		this.id = id; 
+	}
 	
-	public String getName() { return name; }
-	public void setName(String name) { this.name = name; }
+	public String getName() { 
+		return name; 
+	}
 	
-	public BigDecimal getPrice() { return price; }
-	public void setPrice(BigDecimal price) { this.price = price; }
+	public void setName(String name) { 
+		this.name = name; 
+	}
 	
-	public Boolean getStock() { return stock; }
-	public void setStock(boolean stock) { this.stock = stock; }
+	public BigDecimal getPrice() { 
+		return price; 
+	}
 	
+	public void setPrice(BigDecimal price) { 
+		this.price = price; 
+	}
+	
+	public Boolean getStock() { 
+		return stock; 
+	}
+	
+	public void setStock(boolean stock) { 
+		this.stock = stock; 
+	}
 }
 
