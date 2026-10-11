@@ -1,3 +1,11 @@
+# Baozi Store
+API REST to manage a fictional store that sells little chinese breads called Baozis. With this API you can manage products, clients and orders.
+
+## Technologies
+- Java 17
+- Spring Boot and Data JPA
+- MariaDB
+
 ## `/products`
 ### `POST /products`
 
